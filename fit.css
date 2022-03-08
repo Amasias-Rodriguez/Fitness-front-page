@@ -252,3 +252,39 @@ body{
     font-size: 17.5px;
     margin-right: 2px;
 }
+
+/* SECTION 4 */
+
+.customized3{
+    width: 100%;
+    background: #A2DCF6;
+    position: relative;
+    top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.img-fit3{
+    width: 551px;
+    height: 254px;
+    padding: 20px 0;
+    margin-left: 10%;
+}
+
+.customized__col3{
+    width: 100%;
+    margin-right: 10px;
+    
+}
+
+.customized__col3 h3{
+    font-size: 24px;
+    padding: 20px 0 0;
+}
+
+.customized__col3 p{
+    height: 20%;
+    font-size: 20px;
+    padding: 2px 0;
+    
+}
