@@ -49,8 +49,11 @@ body{
 /* SECTION ONE */
 .section__one{
     background: #E9EBEC;
-    padding: 10px 40px;
+    padding-bottom: 25px;
     text-align: center;
+    position: relative;
+    bottom: 20px;
+     
 }
 
 .section--title{
@@ -67,12 +70,15 @@ body{
 
 .container__imagenes{
     width: 100%;
+    position: relative;
+    bottom: 20px;
     padding: 10px 0 70px 0;
     background: #E9EBEC;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+
 }
 
 .container__imagenes--pic{
@@ -94,6 +100,8 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
     background: #A2DCF6;
     color: #fff;
+    position: relative;
+    bottom: 20px;
 }
 .column{
     width: 420px;
@@ -192,6 +200,7 @@ body{
     margin: 0 auto;
 }
 
+
 .customized img{
     width: 550px;
     height: 540px;
@@ -213,16 +222,18 @@ body{
 .divisor{
     background: #A2DCF6;
     position: relative;
-}
+    height: 50px;
+    margin-top: 20px;
+} 
 
- .linea{
+.linea{
     width: 93%;
     border-style: solid;
     border-width: 1px;
     margin-top: 40px;
     margin-left: 62px;
     background: #A2DCF6;
-}
+} 
 
 .customized2{
     width: 100%;
@@ -253,13 +264,27 @@ body{
     margin-right: 2px;
 }
 
-/* SECTION 4 */
+/* SECTION 3 */
+
+ .section__3b h1{
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    background:  #A2DCF6;
+}
+
+.container-customized{
+    background: #A2DCF6;
+}
 
 .customized3{
     width: 100%;
     background: #A2DCF6;
     position: relative;
-    top: 30px;
+    top: 40px;
+    bottom: 25px;
+    padding: 10px 10px 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -279,6 +304,7 @@ body{
 
 .customized__col3 h3{
     font-size: 24px;
+    font-weight: bold;
     padding: 20px 0 0;
 }
 
@@ -286,5 +312,50 @@ body{
     height: 20%;
     font-size: 20px;
     padding: 2px 0;
-    
+    font-weight: 400;
 }
+
+.customized3b{
+    width: 100%;
+    background: #A2DCF6;
+    position: relative;
+    bottom: 5px;
+    padding: 5px 10px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.customized3c{
+    width: 100%;
+    background: #A2DCF6;
+    position: relative;
+    bottom: 45px;
+    padding: 5px 10px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.customized3c::after{
+    content: "";
+    border-bottom: 2.5px solid black;
+    width: 1262px;
+    position: absolute;
+    top: 250px;
+    left: 75px;
+    margin: 0 auto;
+}
+
+.customized__col3b, .customized__col3c h3{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px 0 0;
+}
+
+.customized__col3b, .customized__col3c p {
+    height: 20%;
+    font-size: 20px;
+    padding: 2px 0;
+    font-weight: 400;
+} 
+
