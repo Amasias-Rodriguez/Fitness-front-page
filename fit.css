@@ -53,7 +53,7 @@ body{
     text-align: center;
     position: relative;
     bottom: 20px;
-     
+
 }
 
 .section--title{
@@ -224,7 +224,7 @@ body{
     position: relative;
     height: 50px;
     margin-top: 20px;
-} 
+}
 
 .linea{
     width: 93%;
@@ -233,7 +233,7 @@ body{
     margin-top: 40px;
     margin-left: 62px;
     background: #A2DCF6;
-} 
+}
 
 .customized2{
     width: 100%;
@@ -264,18 +264,29 @@ body{
     margin-right: 2px;
 }
 
-/* SECTION 3 */
+/* SECTION 4 */
+
+.section__3b{
+    width: 50%;
+    margin-bottom: -9px;
+    margin: 0 auto;
+}
 
  .section__3b h1{
     font-size: 50px;
     text-align: center;
     justify-content: center;
-    margin: 0 auto;
-    background:  #A2DCF6;
+    margin-top: 8px;
+    margin-right: 0;
+    margin-left: auto;
+     background:  #A2DCF6; 
 }
 
-.container-customized{
+.custom-cointainer{
     background: #A2DCF6;
+    width: 100%;
+    position: relative;
+    top: 10px;
 }
 
 .customized3{
@@ -289,18 +300,24 @@ body{
     grid-template-columns: repeat(2, 1fr);
 }
 
+
+.customized__col3::after{
+    content: "";
+    border-bottom: 2.5px solid black;
+    width:  1262px;
+    position: absolute;
+    top: 265px;
+    right: 5px;
+   
+}
+
 .img-fit3{
     width: 551px;
     height: 254px;
     padding: 20px 0;
-    margin-left: 10%;
+    margin-left: 64px;
 }
 
-.customized__col3{
-    width: 100%;
-    margin-right: 10px;
-    
-}
 
 .customized__col3 h3{
     font-size: 24px;
@@ -315,6 +332,16 @@ body{
     font-weight: 400;
 }
 
+.fit3 {
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.cus3{
+    position: relative;
+    bottom: 10px;
+}
+
 .customized3b{
     width: 100%;
     background: #A2DCF6;
@@ -325,25 +352,32 @@ body{
     grid-template-columns: repeat(2, 1fr);
 }
 
+.fit5{
+    position: relative;
+    bottom: 20px;
+}
+
+.customized__col3b::after{
+    content: "";
+    border-bottom: 2.5px solid black;
+    width: 1262px;
+    position: absolute;
+    z-index: 1;
+    top: 244px;
+    left: 75px;
+    margin-top: 2px;
+}
+
 
 .customized3c{
     width: 100%;
+    height: 43vh;
     background: #A2DCF6;
     position: relative;
     bottom: 45px;
     padding: 5px 10px 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-}
-
-.customized3c::after{
-    content: "";
-    border-bottom: 2.5px solid black;
-    width: 1262px;
-    position: absolute;
-    top: 250px;
-    left: 75px;
-    margin: 0 auto;
 }
 
 .customized__col3b, .customized__col3c h3{
@@ -357,5 +391,22 @@ body{
     font-size: 20px;
     padding: 2px 0;
     font-weight: 400;
-} 
+}
+
+.fit4{
+    position: relative;
+    top: 33px;
+}
+
+.ccol3c{
+    position: relative;
+    top: 28px;
+}
+
+.h3col3c{
+    position: relative;
+    bottom: 7px;
+}
+
+
 
