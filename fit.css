@@ -188,59 +188,6 @@ body{
     text-align: center;
 }
 
-/* .container1{
-    width: 100%;
-    height: 65%;
-    background: #A2DCF6;
-    display: flex;
-    position: relative;
-    top: 70px;
-    z-index: 1;
-}
-
-.container2{
-    width: 100%;
-    height: 85%;
-    position: relative;
-    top: 70px;
-    background: #A2DCF6;
-}
-
-.containerimagen{
-    width:450px;
-    height: 477px;
-    margin-left: 69px;
-    position: relative;
-    bottom: 50px;
-}
-
-.containertext1{
-    display: inline-block;
-    text-align: start;
-    position: relative;
-    bottom: 75px;
-    margin-left: 30px; 
-}
-
-.containertext1 h3{
-    font-size: 30px;
-    margin-bottom: 10px;
-    
-}
-
-.containertext1 p{
-    width: 660px;
-    font-size: 17.5px;
-    margin-right: 2px;
-}
-
-.line{
-    border-bottom: 2px solid black;
-    position: relative;
-    bottom: 18px;
-    width: 85%;
-    margin-left: 65px;
-} */
 
 .containercus{
     width: 100%;
